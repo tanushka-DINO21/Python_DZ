@@ -16,10 +16,10 @@ print(f"{count} монеток нужно перевернуть")
         
 #Задача 12
 
-print("Введиче сумму : ")
+print("Введите сумму : ")
 s = int(input())
 
-print("Введиче произведение : ")
+print("Введите произведение : ")
 p = int(input())
 
 result = []
@@ -33,4 +33,12 @@ if len(result) == 2:
 else: 
     print(f"X = {result[0]}\nY = {result[0]}")
     
-            
+# Задача 14
+
+print("Введите число n:")
+n = int(input())
+
+for i in range(1, n+1):
+    if(i > n):
+        print("")
+    else: print(f"{i} - {2**i}")     
